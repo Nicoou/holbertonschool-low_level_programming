@@ -3,9 +3,8 @@
 *main - Entry point
 *Return: Always 0 (Success)
 */
-int
-main(void)
+int main(void)
 {
-pritnf("with proper grammar, but the outcome is a piece of art\n");
+pritnf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
