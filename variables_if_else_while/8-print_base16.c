@@ -9,17 +9,18 @@ int main(void)
 {
 	int x;
 	int y;
-	
-	for (x =48; x <= 102; x++)
+
+	for (x = 48; x <= 102; x++)
 	{
-	puchar(x);
+	putchar(x);
 	}
-	for(y =97; y <= 102; y++)
+	for (y = 97; y <= 102; y++)
 
 	{
-	puchar (y);
+	putchar (y);
 	}
-	 puchar('\n');
 
-	 return (0);
+	putchar('\n');
+
+	return (0);
 }
