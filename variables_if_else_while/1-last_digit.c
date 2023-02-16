@@ -3,12 +3,11 @@
 #include <stdio.h>
 
 /**
-*main - start
+* main - start
 *
-*return: always 0
+* Return: always 0
 *
 */
-
 int main(void)
 {
 	int n;
@@ -19,9 +18,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	a = n % 10;
 
-	if (n > 5)
+	if (a > 5)
 	{
-	printf("Last digit of %d is %d and is greater than 5\n", n, a);
+	printf("Last digit of %d is %d and is gratee than 5 \n", n, a);
 	}
 	else if (n < 6 && n != 0)
 	{
