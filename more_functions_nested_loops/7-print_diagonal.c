@@ -24,15 +24,17 @@ print_diagonal(int n)
 	}
 	else
 	{
-	for (i = 1; i <= n; i++)
-	{
-		for (h = i; h >= 1; h--)
-			if (h != 1)
+		for (i = 1; i <= n; i++)
+		{
+			for (h = i; h >= 1; h--)
+			{
+				if (h != 1)
 				{
-				_putchar(' ');
+					_putchar(' ');
 				}
-	}
-	_putchar('\\');
-	_putchar('\n');
+			}
+		}
+		_putchar('\\');
+		_putchar('\n');
 	}
 }
