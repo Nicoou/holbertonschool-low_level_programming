@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isupper - check the code.
+ *@c : variable
+ * Return: Always 0
  */
 
 int
