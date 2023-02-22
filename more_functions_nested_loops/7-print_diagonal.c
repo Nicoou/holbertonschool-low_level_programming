@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_line - Write a function that draws a straight line in the terminal.
+ * print_diagonal - Write a function that draws a diagonal.
  *
  *@n: number
  *
- * Return: Always 0.
  */
+
 void
 print_diagonal(int n)
 {
@@ -33,8 +33,8 @@ print_diagonal(int n)
 					_putchar(' ');
 				}
 			}
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\\');
-		_putchar('\n');
 	}
 }
