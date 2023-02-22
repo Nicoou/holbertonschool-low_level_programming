@@ -1,2 +1,2 @@
-programa: main.c m.h
-	cc main.c school.c -o school
+all: main.c
+	gcc main.c school.c -o school
