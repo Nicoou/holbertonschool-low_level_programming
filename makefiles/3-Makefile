@@ -13,4 +13,4 @@ oclean: $(RM) *.o $(NAME)
 
 fclean: $(RM) *\~ $(NAME)
 
-re: $(RM) rm -f $(NAME)
+re: $(RM) $(NAME)
