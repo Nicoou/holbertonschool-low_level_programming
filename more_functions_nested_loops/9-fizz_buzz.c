@@ -6,8 +6,8 @@
  *
  * Return: Always 0.
  */
-int
-main(void)
+
+int main(void)
 {
 	int n;
 
@@ -20,10 +20,10 @@ main(void)
 		else if (n % 5 == 0)
 		{
 			printf("Buzz");
-                        if (n != 100)
-                        {
-                        	printf(" ");
-                        }
+			if (n != 100)
+			{
+				printf(" ");
+			}
 		}
 		else if (n % 3 == 0)
 		{
