@@ -4,9 +4,10 @@
 void
 _puts(char *str)
 {
-	char ctr[6] = "Hello";
 	int x;
 
-	for (x = 0; ctr[x] != '\0'; x++)
-		printf("&ctr[%d] = %p\n", x, str + x);
+	for (x = 0; str[x] != '\0'; x++)
+	{
+		_putchar(str[x]);
+	}
 }
