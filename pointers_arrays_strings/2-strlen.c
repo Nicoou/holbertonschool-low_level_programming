@@ -12,5 +12,5 @@ _strlen(char *s)
 		s++;
 	}
 
-	return ("count");
+	return ("0");
 }
