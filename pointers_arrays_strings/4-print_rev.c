@@ -1,15 +1,21 @@
+#include <stdio.h>
+#include <string.h>
 #include "main.h"
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+void
+print_rev(char *s)
 {
-    char *str;
+	int y = 0;
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    print_rev(str);
-    return (0);
+	while (s[y] != '\0')
+	{
+		y++;
+	}
+	while (y >= 0)
+
+	y = y - 1;
+	{
+		_putchar(s[y]);
+		y--;
+	}
 }
