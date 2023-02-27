@@ -10,6 +10,6 @@ _puts(char *str)
 	{
 		putchar(str[x]);
 	}
-	
+
 	_putchar('\n');
 }
