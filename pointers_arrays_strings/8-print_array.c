@@ -13,6 +13,6 @@ print_array(int *a, int n)
 
 	if (b == n - 1)
 	{
-		printf("%d", a[b]);
+		printf("%d\n", a[b]);
 	}
 }
