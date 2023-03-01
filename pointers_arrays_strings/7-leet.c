@@ -8,7 +8,7 @@ char
 	int counta = 0;
 	int count = 0;
 
-	while(s[count])
+	while (s[count])
 	{
 		while (a[counta])
 		{
@@ -22,5 +22,5 @@ char
 		count++;
 
 	}
-	return(s);
+	return (s);
 }
