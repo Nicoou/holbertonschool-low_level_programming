@@ -15,6 +15,10 @@ char
 	{
 		dest[ana] = src[laura];
 		ana++;
+		if (src[ana] == '\0')
+		{
+			break;
+		}
 		laura++;
 	}
 
