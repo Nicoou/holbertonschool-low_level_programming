@@ -3,9 +3,9 @@
 char
 *_strchr(char *s, char c)
 {
-	int a;
+	int a = 0;
 
-	for (a = 0; s[a];a++)
+	for (; s[a]; a++)
 	{
 		if (s[a] == c)
 		{
@@ -13,5 +13,5 @@ char
 		}
 
 	}
-	return (0);	
+	return (0);
 }
