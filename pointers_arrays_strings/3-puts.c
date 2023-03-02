@@ -1,8 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
-void
-_puts(char *str)
+/**
+* _puts - prints a string
+*
+* @str: char
+*
+*/
+
+void _puts(char *str)
 {
 	int x;
 

@@ -1,7 +1,11 @@
 #include "main.h"
 
-void
-puts_half(char *str)
+/**
+ *  puts_half - prints a string and reverse it
+ *  @str: char
+ */
+
+void puts_half(char *str)
 {
 	int ana = 0;
 

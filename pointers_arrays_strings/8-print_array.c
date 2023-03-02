@@ -1,10 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 
-void
-print_array(int *a, int n)
+/**
+ *  print_array - prints a string and reverse it
+ * @b: b will be used as a counter to iterate over the elements of the array.
+ * 
+ */
+
+void print_array(int *a, int n)
 {
-	int b = 0;
+	int b = 0;i
 
 	for (; b < n; b++)
 	{

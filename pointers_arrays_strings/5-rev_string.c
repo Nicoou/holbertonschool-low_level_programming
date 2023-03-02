@@ -2,8 +2,16 @@
 #include <string.h>
 #include "main.h"
 
-void
-rev_string(char *s)
+/**
+* rev_string - prints a string and reverse it
+* @s: string
+* @i : for loop index
+* @len : to store the length of the string
+* @temp : to temporarily store the value of the character to be swapped.
+*
+*/
+
+void rev_string(char *s)
 {
 	int i, len, temp;
 

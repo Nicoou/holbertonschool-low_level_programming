@@ -2,8 +2,12 @@
 #include <stddef.h>
 #include <string.h>
 
-void
-puts2(char *str)
+/**
+ *  puts2 - prints a string and reverse it
+ *  @str: string
+ */
+
+void puts2(char *str)
 {
 	size_t num;
 

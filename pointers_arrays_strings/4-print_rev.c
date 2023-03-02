@@ -2,8 +2,14 @@
 #include <string.h>
 #include "main.h"
 
-void
-print_rev(char *s)
+/**
+* print_rev - prints a string in reverse
+*
+* @s: char
+* 
+*/
+
+void print_rev(char *s)
 {
 	int y = 0;
 
