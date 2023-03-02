@@ -8,7 +8,7 @@ char
 	int c = 0;
 	int d = 0;
 
-	if(needle[0] == '\0')
+	if (needle[0] == '\0')
 		return (haystack + 0);
 	while (haystack[b])
 	{
@@ -20,8 +20,8 @@ char
 				c = d;
 			a++;
 			d++;
-			if(needle[a] == '\0')
-				return(haystack + b);
+			if (needle[a] == '\0')
+				return (haystack + b);
 
 		}
 		a = 0;
