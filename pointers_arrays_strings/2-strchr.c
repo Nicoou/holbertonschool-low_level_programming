@@ -11,7 +11,11 @@ char
 		{
 			return (a + s);
 		}
-
 	}
+	if (c == '\0')
+	{
+		return (s + c);
+	}
+
 	return (0);
 }
