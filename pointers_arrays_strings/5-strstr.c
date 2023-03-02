@@ -13,14 +13,15 @@ char
 	while (haystack[b])
 	{
 
-		c = b;
-		while (needle[a] == haystack[c])
+		d = b;
+		while (needle[a] == haystack[d])
 		{
 			if (c == 0)
 				c = d;
 			a++;
 			d++;
 			if (needle[a] == '\0')
+
 				return (haystack + b);
 
 		}
