@@ -14,7 +14,7 @@ char
 	}
 	if (c == '\0')
 	{
-		return (s + c);
+		return (a + s);
 	}
 
 	return (0);
