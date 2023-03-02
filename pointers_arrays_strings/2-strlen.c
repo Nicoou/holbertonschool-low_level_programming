@@ -1,8 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
-int
-_strlen(char *s)
+/**
+* _strlen - lenght of a string
+* @s: char
+*
+* Return: lenght of a string
+*/
+
+int _strlen(char *s)
 {
 	int count = 0;
 
