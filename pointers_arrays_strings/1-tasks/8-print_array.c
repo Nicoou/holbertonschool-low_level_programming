@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *  print_array - prints a string and reverse it
+ *  print_array - prints a string and reverse it.
  * @b: b will be used as a counter to iterate over the elements of the array.
  * 
  */
