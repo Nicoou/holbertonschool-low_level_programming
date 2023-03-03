@@ -4,7 +4,7 @@
 /**
  * reset_to_98 - Reset to pointer to 98
  *
- *@n: pointer
+ *@n: pointer.
  *
  */
 
