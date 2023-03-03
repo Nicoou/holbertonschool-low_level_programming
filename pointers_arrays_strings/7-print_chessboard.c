@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ *print_chessboard - Prints the pieces of the chess.
+ *
+ * @a: *char
+ * Return: void
+ *
+ */
+
 void print_chessboard(char (*a)[8])
 {
 	int colum;
