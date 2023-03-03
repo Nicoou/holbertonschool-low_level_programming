@@ -4,7 +4,7 @@
 
 /**
  *  puts2 - prints a string and reverse it
- *  @str: string
+ *  @str: string.
  */
 
 void puts2(char *str)
