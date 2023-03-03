@@ -1,7 +1,13 @@
 #include "main.h"
 
-char
-*leet(char *s)
+/**
+ * leet - Encodes a string into 1337
+ * @str : string
+ *
+ * Return: encode string
+ */
+
+char *leet(char *s)
 {
 	char *a = "AaEeLlOoTt";
 	char num[10] = "4433110077";
