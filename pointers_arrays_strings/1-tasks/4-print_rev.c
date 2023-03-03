@@ -5,7 +5,7 @@
 /**
 * print_rev - prints a string in reverse.
 *
-* @s: char
+* @s: char.
 * 
 */
 
