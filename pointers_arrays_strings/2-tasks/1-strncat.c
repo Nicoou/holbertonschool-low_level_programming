@@ -1,7 +1,15 @@
 #include "main.h"
 
-char
-*_strncat(char *dest, char *src, int n)
+/**
+ * _strncat - Concatenates two strings
+ * @src : source of my data
+ * @dest : final destiny where I will print my data
+ * @n : quantity of chars to be printed
+ *
+ * Return: dest
+ */
+
+char *_strncat(char *dest, char *src, int n)
 {
 	int ana = 0;
 	int laura = 0;
