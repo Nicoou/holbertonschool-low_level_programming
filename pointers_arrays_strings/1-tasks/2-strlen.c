@@ -3,7 +3,7 @@
 
 /**
 * _strlen - lenght of a string
-* @s: char
+* @s: char.
 *
 * Return: lenght of a string
 */
