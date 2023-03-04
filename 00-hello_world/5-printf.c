@@ -1,4 +1,4 @@
-#include <stdio.h>
+printf("Size of int: %zu bytes\n", sizeof(intType));~#include <stdio.h>
 /**
 *main - start
 *Return: Always 0 (Success)
