@@ -1,3 +1,5 @@
+C logo Pointers, arrays and strings
+
 What are pointers and how to use them
 
 What are arrays and how to use them
