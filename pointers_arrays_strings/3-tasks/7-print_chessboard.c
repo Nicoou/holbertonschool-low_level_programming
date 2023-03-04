@@ -3,7 +3,7 @@
 /**
  *print_chessboard - Prints the pieces of the chess.
  *
- * @a: *char
+ * @a: *char.
  * Return: void
  *
  */
