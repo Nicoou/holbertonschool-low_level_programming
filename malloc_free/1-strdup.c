@@ -23,8 +23,10 @@ char *_strdup(char *str)
 	}
 
 	while (str[leng] != '\0')/*Calcular la longitud de la cadena de entrada*/
-			leng++;
+	{	
+		leng++;
 	leng++;
+	}
 
 	if (srt == NULL)
 	{
