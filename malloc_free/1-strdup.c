@@ -34,6 +34,6 @@ char *_strdup(char *str)
 	{
 		srt[x] = str[x];
 	}
-
+	srt[x] = '\0';
 	return (srt);
 }
