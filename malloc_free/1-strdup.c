@@ -15,7 +15,7 @@ char *_strdup(char *str)
 	int x;
 	int leng = 0;
 
-	char *srt = malloc(sizeof(char) * (leng * 1));
+	char *srt = malloc(sizeof(char) * (leng + 1));
 
 	if (str == NULL)
 	{
@@ -25,6 +25,11 @@ char *_strdup(char *str)
 	while (str[leng] != '\0')/*Calcular la longitud de la cadena de entrada*/
 	{
 		leng++;
+	}
+
+	if (srt == NULL)
+	{
+		return (NULL);
 	}
 
 	for (x = 0; x <= leng; x++)
