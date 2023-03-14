@@ -17,22 +17,20 @@ char *_strdup(char *str)
 
 	char *srt = malloc(sizeof(char) * (leng + 1));
 
-	if (str <= NULL)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	while (str[leng] != '\0')/*Calcular la longitud de la cadena de entrada*/
-	}
-		leng++;
-	}
+	for (; str[leng] != '\0'; leng++)
+		;
 
 	if (srt == NULL)
 	{
 		return (NULL);
 	}
 
-	for (x = 0; x < leng; x++)
+	for (x = 0; x <= leng; x++)
 	{
 		srt[x] = str[x];
 	}
