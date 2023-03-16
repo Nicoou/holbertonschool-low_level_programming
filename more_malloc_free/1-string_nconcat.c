@@ -4,7 +4,7 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int a = 0, b = 0, na, no;
+	unsigned int a = 0, b = 0, na = 0, no = 0;
 	char *array = NULL;
 
 	if (s1 == NULL)
@@ -20,7 +20,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		;
 
 	array = (char *)malloc((a + n + 1));
-
 	if (array == NULL)
 		return (NULL);
 
