@@ -2,6 +2,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * string_nconcat - Concat two trings until that n is less than n.
+ *
+ * @s1: First char pointer.
+ * @s2: Second char pointer.
+ * @n: limit
+ * Return: Memory dinamic of char type.
+ **/
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int a = 0, b = 0, na = 0, no = 0;
@@ -38,5 +47,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 
 	array[na] = '\0';
-	return(array);	
+
+	return (array);
 }
