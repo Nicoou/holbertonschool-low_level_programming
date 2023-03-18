@@ -3,20 +3,14 @@
 /**
  *main -  entry point
  *@argc:int
- *@argv:char
+ *@argv: contiene el nombre programa que estamos ejecutando
  *Return: retunrs 0
  */
 
 int main(int argc, char *argv[])
 {
-	if (argc >= 0)
-	{
+	((void)argc);
 
 	printf("%s\n", argv[0]);
-
 	return (0);
-
-	}
-	return (1);
-
 }
