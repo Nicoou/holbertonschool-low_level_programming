@@ -42,11 +42,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	for (i = 0; i < save_name; i++)
 		point->name[i] = name[i];
-	point->namei[i] = '\0';
+	point->name[i] = '\0';
 
 	for (i = 0; i < save_owner; i++)
 		point->owner[i] = owner[i];
-	point->ownerp[i] = '\0';
+	point->owner[i] = '\0';
 
 	point->age = age;
 	return (point);
