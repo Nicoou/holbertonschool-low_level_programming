@@ -3,6 +3,7 @@
 /**
  * array_iterator - Executed a parameter on each element of an array.
  *
+ * @i: count elements in the array
  * @array: Data structure.
  * @size: Size of the array.
  * @action: function passed by parameters.
@@ -14,7 +15,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 
-	if (array == NULL || size == NULL)
+	if (array == NULL)
 		return;
 
 	for (i = 0; i < size; i++)
