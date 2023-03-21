@@ -3,7 +3,6 @@
 /**
  * array_iterator - Executed a parameter on each element of an array.
  *
- * @i: count elements in the array
  * @array: Data structure.
  * @size: Size of the array.
  * @action: function passed by parameters.
