@@ -3,9 +3,9 @@
 
 /**
  * struct dog - Save the params.
- * @name: First member.
- * @age: Second member.
- * @owner: Third member.
+ * @name: first member.
+ * @age: second member.
+ * @owner: third member.
  */
 
 struct dog
