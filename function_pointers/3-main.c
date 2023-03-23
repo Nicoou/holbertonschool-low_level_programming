@@ -30,6 +30,6 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 	result = f(a, b);
-	printf("%d,n", result);
+	printf("%d\n", result);
 	return (0);
 }
