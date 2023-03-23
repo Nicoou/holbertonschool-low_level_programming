@@ -21,10 +21,10 @@ int (*get_op_func(char *s))(int, int)
 
 	int a = 0;
 
-	while (ops[a].op)
+	while (ops[a].op != NULL)
 	{
 		/*checks if the characters of *s and ops[a] match*/
-		if (*(ops[a].op) == *s)
+		if (*s == ops[a].op[0])
 		{
 			/*return a ponter corresponding function stored in the ops[i]*/
 			return (ops[a].f);
