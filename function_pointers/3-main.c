@@ -6,7 +6,6 @@ int main(int argc, char *argv[])
 	int a, b;
 	int (*f)(int, int);
 	int result;
-	char *save_argv;
 
 	if (argc != 4)
 	{
@@ -15,7 +14,6 @@ int main(int argc, char *argv[])
 	}
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
-	save_argv = argv[2];
 
 	f = get_op_func(save_argv);
 
@@ -24,7 +22,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	if ((save_argv[0] == '/' || save_argv[0] == '%') && argv[1][3] == 0)
+	if ((argv[2][0] == '/' || argv[2][0] == '%') && argv[1][3] == 0)
 	{
 		printf("Error\n");
 		exit(100);
