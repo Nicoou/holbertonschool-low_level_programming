@@ -1,6 +1,15 @@
 #include "3-calc.h"
 #include <stdio.h>
 
+/**
+ * main - main
+ *
+ * @argc: int
+ * @argv: char pointer
+ *
+ * Return: int
+ */
+
 int main(int argc, char *argv[])
 {
 	int a, b;
