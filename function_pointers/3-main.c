@@ -1,0 +1,33 @@
+#include "3-cal.h"
+#include <stdio.h>
+
+void main(argc, char *argv[])
+{
+	int a, b;
+	int (*f)(int, int);
+	int result;
+
+	if (argc != 4)
+	{
+		printf("Error\n");
+		return (98);
+	}
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
+
+	f = get_op_fun(argv[2])
+
+	if (f == NULL)
+	{
+		printf("Error\n");
+		return(99);
+	}
+	if ((argv[2] == '/' || argv[2] == '%') && argv[1][3] == '0')
+	{
+		printf("Error\n");
+		return(100);
+	}
+	result = f(a, b);
+	printf("%d,n", result);
+	return (0);
+}
