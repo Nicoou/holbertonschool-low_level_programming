@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(100);
 	}
-	result = f(a, b);
+	result = (*f)(a, b);
 	printf("%d\n", result);
 	return (0);
 }
