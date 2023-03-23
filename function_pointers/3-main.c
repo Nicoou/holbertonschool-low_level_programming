@@ -17,12 +17,12 @@ int main(int argc, char *argv[])
 
 	f = get_op_func(argv[2]);
 
-	if (f == NULL)
+	if (strlen(argv[2]) != 1 || f == NULL)
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	if ((argv[1][3] == 0) && (argv[2][0] == '/' || argv[2][0] == '%'))
+	if ((b == 0) && (argv[2][0] == '/' || argv[2][0] == '%'))
 	{
 		printf("Error\n");
 		exit(100);
