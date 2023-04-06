@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * print_len - 
+ * list_len - return the number of elements
  *
- * @h: is an Structure.
+ * @h: head node of each list_t.
  *
  * Return: the number of elements
  */
@@ -14,7 +14,7 @@ size_t list_len(const list_t *h)
 
 	while (h != NULL)
 	{
-		h ->h = next;
+		h -> h = next;
 		lenght++;
 	}
 	return (lenght);
