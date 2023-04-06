@@ -5,7 +5,7 @@
  * print_list - Prints a SLL(Simply linked lists)
  *
  * @h: is an Structure.
- * 
+ *
  * Return: the number of nodes
  */
 size_t print_list(const list_t *h)
@@ -14,14 +14,13 @@ size_t print_list(const list_t *h)
 
 	while (h != NULL)
 	{
-		if(h->str == NULL)
+		if (h->str == NULL)
 
 		{
-			printf("[0] (nill)");
+			printf("[0] (nil)");
 		}
 		else
 			printf("[%i] %s", h->len, h->str);
-	
 
 		printf("\n");
 
@@ -30,5 +29,5 @@ size_t print_list(const list_t *h)
 		lenght++;
 	}
 
-	return(lenght);
+	return (lenght);
 }
