@@ -10,7 +10,7 @@ unsigned int lenbit(unsigned long int n);
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int l = n;
+	unsigned int i = n;
 
 	if (lenbit(4294967295) < index)
 		return (-1);
