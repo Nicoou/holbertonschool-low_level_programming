@@ -1,4 +1,4 @@
-#include ""search_algos.h"
+/bin/bash: q: command not found
 
 int
 linear_search(int *array, size_t size, int value)
@@ -12,4 +12,4 @@ linear_search(int *array, size_t size, int value)
 			break;
 	}
 	return ((i < size) ? (int)i : -1);
-}"
+}
